@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourHR - Login</title>
+    <link rel="stylesheet" href="../css/login-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="../html/signup.html">Sign Up</a></li>
+                <li><a href="../html/login.html">Login</a></li>
+                <li><a href="../html/job-search.html">Job Search</a></li>
+                <li><a href="../html/help-support.html">Help & Support</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome Back to <span class="highlight">YourHR</span></h1>
+        <p>Please log in to access your account and manage your job search efficiently.</p>
+    </header>
+
+    <main class="login-container">
+        <form id="login-form" action="/api/login" method="post" class="login-form">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="cta-button">Login</button>
+            <p class="signup-link">Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 YourHR. All rights reserved.</p>
+        <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-of-service.html">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourHR - Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class = "dashboard">
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="../html/signup.html">Sign Up</a></li>
+                <li><a href="../html/login.html">Login</a></li>
+                <li><a href="../html/job-search.html">Job Search</a></li>
+                <li><a href="../html/dashboard.html">Dashboard</a></li>
+                <li><a href="../html/help-support.html">Help & Support</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome, </h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="dashboard-container">
+        <section class="profile">
+            <h2>Profile Overview</h2>
+            <div class="card">
+                <p><strong>Name:</strong> John Doe</p>
+                <p><strong>Email:</strong> johndoe@21gmail.com</p>
+                <a href="edit-profile.html" class="cta-button">Edit Profile</a>
+            </div>
+        </section>
+
+        <section class="job-search">
+            <h2>Search for Jobs</h2>
+            <form id="search-form" class="search-bar-container">
+                <input
+                    type="text"
+                    id="search-bar"
+                    placeholder="Search for roles like 'Frontend Developer'..."
+                />
+                <button type="submit" class="cta-button">Search</button>
+            </form>            
+        </section>
+
+        <section id="search-results" class="search-results hidden">
+            <ul id="results-list"></ul>
+        </section>
+
+        <section class="applications">
+            <h2>Recent Job Applications</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Software Engineer</h3>
+                    <p>Company: CodeMaster</p>
+                    <p>Status: Applied</p>
+                </div>
+                <div class="card">
+                    <h3>Data Analyst</h3>
+                    <p>Company: DataPros</p>
+                    <p>Status: Interview Scheduled</p>
+                </div>
+                <div class="card">
+                    <h3>Web Developer</h3>
+                    <p>Company: DevsAI</p>
+                    <p>Status: Applied</p>
+                </div>
+            </div>
+            <a href="dashboard.html" class="cta-button" style = "text-align:center; ">View All Applications</a>
+        </section>
+
+        <!--<section class="settings">
+            <h2>Account Settings</h2>
+            <ul>
+                <li><a href="change-password.html" class="cta-button">Change Password</a></li>
+                <li><a href="delete-account.html" class="cta-button">Delete Account</a></li>
+            </ul>
+        </section>-->
+    </main>
+
+    <!-- Footer Section -->
+    <footer class = "footer">
+        <p>&copy; 2024 YourHR. All rights reserved.</p>
+        <ul>
+            <li><a href="../html/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="../html/terms-of-service.html">Terms of Service</a></li>
+        </ul>
+    </footer>
+
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>

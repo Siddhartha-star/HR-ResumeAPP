@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Profile</title>
+  <link rel="stylesheet" href="../css/profile-update.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="../html/index.html">Home</a></li>
+      <li><a href="../html/job-search.html">Job Search</a></li>
+      <li><a href="../html/dashboard.html">Dashboard</a></li>
+      <li><a href="../html/account-settings.html">Account Settings</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>Update Your Profile</h1>
+    </div>
+  </header>
+
+  <!-- Profile Update Form -->
+  <main class="profile-container">
+    <section class="profile-update-form">
+      <h2>Update Your Information</h2>
+      <form id="updateForm" action="#">
+        <div class="profile-item">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" value="John Doe" required>
+        </div>
+        <div class="profile-item">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" value="johndoe@example.com" required>
+        </div>
+        <div class="profile-item">
+          <label for="position">Position:</label>
+          <input type="text" id="position" name="position" value="Software Developer" required>
+        </div>
+        <div class="buttons">
+          <button type="submit">Save Changes</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 YourHR. All rights reserved.</p>
+    <ul>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </footer>
+
+  <script src="../js/profile-update.js"></script>
+</body>
+</html>

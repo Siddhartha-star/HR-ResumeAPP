@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+  background: linear-gradient(to right, #0091ff 0%, #ff00b7 100%);
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styling */
+header {
+  background: linear-gradient(to right, #0091ff 0%, #ff00b7 100%);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo h1 {
+  font-size: 2.5em;
+}
+
+/* Profile Section */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1; /* Make sure the main content takes up available space */
+}
+
+.profile-info h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-item {
+  margin: 10px 0;
+}
+
+.profile-item label {
+  font-weight: bold;
+}
+
+.profile-item span {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons button {
+  background: linear-gradient(to right, #0091ff 0%, #ff00b7 100%);
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background 0.3s ease;
+}
+
+.buttons button:hover {
+  background: linear-gradient(to right, #ff00b7 0%, #0091ff 100%);
+}
+
+/* Footer Styling */
+footer {
+  background: linear-gradient(to right, #0091ff 0%, #ff00b7 100%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer ul li a {
+  color: yellow;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+footer ul li a:hover {
+  color: #ffb700;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search | YourHR</title>
+    <!-- Link to the updated CSS -->
+    <link rel="stylesheet" href="../css/job-search.css"> <!-- Link to specific styles for job search -->
+</head>
+<body class = "job-search">
+    <header>
+        <h1>YourHR Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="../html/dashboard.html">Dashboard</a></li>
+                <li><a href="../html/job-search.html">Job Search</a></li>
+                <li><a href="../html/profile.html">Profile</a></li>
+                <li><a href="../html/logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <main>
+            <div class="job-search-container">
+                <h2>Search for Your Dream Job</h2>
+                <form>
+                    <input type="text" placeholder="Enter job title or keyword" />
+                    <input type="text" placeholder="Enter location" />
+                    <select>
+                        <option value="">Select Category</option>
+                        <option value="IT">IT</option>
+                        <option value="Finance">Finance</option>
+                        <option value="Marketing">Marketing</option>
+                    </select>
+                    <button type="submit">Search Jobs</button>
+                </form>
+            </div>
+        
+
+        <section class="results" >
+            <h2>Sample Search Results</h2>
+            <ul>
+                <!-- Example job listing -->
+                <li>
+                    <h3>Software Engineer at Tech Corp</h3>
+                    <p>Location: New York, NY</p>
+                    <p>Category: Engineering</p>
+                    <a href="#" class="cta-button">View Details</a>
+                </li>
+                <!-- Add more job listings dynamically -->
+            </ul>
+        </section>
+    </main>
+
+    <footer class = "footer">
+        <p>&copy; 2024 YourHR. All rights reserved.</p>
+        <ul>
+            <li><a href="../html/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="../html/terms-of-service.html">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,229 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #664caf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 20px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #e0f4e0;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Support Section */
+.support {
+    text-align: center;
+}
+
+.support h2 {
+    margin-bottom: 20px;
+    color: #6f4caf;
+}
+
+.support p {
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form h3 {
+    color: #4c60af;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #684caf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #3b459b;
+}
+
+/* Support Resources */
+.support-resources {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.support-resources h3 {
+    color: #4c5eaf;
+    margin-bottom: 15px;
+}
+
+.support-resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+.support-resources ul li {
+    margin-bottom: 10px;
+}
+
+.support-resources ul li a {
+    text-decoration: none;
+    color: #4c70af;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.support-resources ul li a:hover {
+    color: #3b3b9b;
+}
+
+/* Expandable FAQ and User Guide */
+.expandable-section {
+    display: none;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.expandable-section h4 {
+    color: #514caf;
+}
+
+/* Footer */
+footer {
+    
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #e0f4e0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 15px;
+    }
+
+    .support-resources ul {
+        padding-left: 20px;
+    }
+
+    .support-resources ul li {
+        margin-bottom: 12px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .support {
+        padding: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}

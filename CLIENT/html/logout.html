@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout | YourHR</title>
+    <link rel="stylesheet" href="../css/dashboard.css"> <!-- Common Styles -->
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #f4f4f4;
+        }
+
+        .logout-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        .logout-container h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .logout-container p {
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .logout-container a {
+            display: inline-block;
+            text-decoration: none;
+            background: linear-gradient(to right, #0091ff 0%, #ff00b7 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: background 0.3s ease;
+            font-weight: bold;
+        }
+
+        .logout-container a:hover {
+            background: linear-gradient(to right, #ff00b7 0%, #0091ff 100%);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="logout-container">
+        <h2>Are you sure you want to logout?</h2>
+        <p>Click "Yes" to logout or "Cancel" to return to your dashboard.</p>
+        <a href="../html/login.html">Yes, Logout</a>
+        <a href="../html/dashboard.html" style="margin-left: 10px;">Cancel</a>
+    </div>
+</body>
+</html>
